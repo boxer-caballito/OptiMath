@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d1d1f"/>
+      <stop offset="100%" stop-color="#86868b"/>
+    </linearGradient>
+  </defs>
+  <!-- Fondo circular -->
+  <circle cx="16" cy="16" r="15" fill="#ffffff" stroke="#e5e5e5" stroke-width="1"/>
+  <!-- Símbolo integral estilizado -->
+  <path 
+    d="M18 6 C14 6, 12 9, 12 12 L12 20 C12 23, 10 26, 6 26" 
+    fill="none" 
+    stroke="url(#grad)" 
+    stroke-width="3" 
+    stroke-linecap="round"
+  />
+  <!-- dx pequeño -->
+  <text x="19" y="19" font-family="Times New Roman, serif" font-size="7" font-style="italic" fill="#86868b">dx</text>
+</svg>
