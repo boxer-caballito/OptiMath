@@ -1,6 +1,6 @@
 import { Suspense, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Maximize2, Ruler, Box, Circle, Move3D, Info, RefreshCw } from 'lucide-react';
+import {Maximize2, Ruler, Box, Circle, Move3D, Info, RefreshCw } from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Text, Environment, RoundedBox, Line, Grid } from '@react-three/drei';
 
